@@ -1,0 +1,24 @@
+LOAD R1, 5
+STORE R1, a
+LOAD R1, 10
+STORE R1, b
+LOAD R2, a
+LOAD R3, b
+ADD R1, R2, R3
+STORE R1, c
+LOAD R1, c - a
+STORE R1, d
+LOAD R1, b * 2
+STORE R1, e
+LOAD R1, e / a
+STORE R1, f
+LOAD R1, a && b
+STORE R1, g
+LOAD R1, a || b
+STORE R1, h
+LOAD R1, 4
+STORE R1, rand
+LOAD R1, reverse_bits(b)
+STORE R1, reversed
+LOAD R1, 0x1F600
+STORE R1, emoji
